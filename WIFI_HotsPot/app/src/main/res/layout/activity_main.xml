@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+
+    <TextView
+        android:id="@+id/Connected"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Wifi IP Address:"
+        android:layout_marginTop="100dp"
+        android:id="@+id/ipd"
+        />
+    <TextView
+        android:id="@+id/Ip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="100dp"
+
+        />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="SSID       :"
+        android:layout_marginTop="140dp"
+        android:id="@+id/Ssid1"
+        />
+    <TextView
+        android:id="@+id/Ssid"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="100dp"
+        />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="BSSID       :"
+        android:id="@+id/Bssid1"
+        android:layout_marginTop="180dp"
+        />
+    <TextView
+        android:id="@+id/Bssid"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:layout_marginLeft="100dp"
+        />
+
+    <!--<TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Speed:"
+        />
+    <TextView
+        android:id="@+id/Speed"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        />-->
+  <!--  <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Rssi:"
+        />
+    <TextView
+        android:id="@+id/Rssi"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        />-->
+
+    <!--<TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="MAC:"
+        />
+    <TextView
+        android:id="@+id/Mac"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        />-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="220dp"
+        android:id="@+id/disconnected_info"
+        />
+
+  <!--  <Switch
+        android:id="@+id/wifi_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:background="@android:color/background_dark"
+        android:checked="false"
+        android:text="Wi-Fi Settings"
+        android:textColor="@android:color/white"
+        android:textOff="OFF"
+        android:textOn="ON" />-->
+
+</RelativeLayout>
